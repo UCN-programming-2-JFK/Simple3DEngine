@@ -11,6 +11,8 @@ public class Triangle {
 	}
 	
 	public Triangle() {
-		
+		this.vertices[0] = new Vertex();
+		this.vertices[1] = new Vertex();
+		this.vertices[2] = new Vertex();
 	}
 }

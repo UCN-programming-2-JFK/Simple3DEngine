@@ -22,4 +22,9 @@ public class Vector3 {
 		this.setY(y);
 		this.setZ(z);
 	}
+	
+	@Override
+	public String toString() {
+		return "(" + getX() + ", " + getY() + ", " + getZ() + ")";
+	}
 }

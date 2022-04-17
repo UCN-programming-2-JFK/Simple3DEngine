@@ -2,6 +2,10 @@ package jfk.simple3d.model;
 
 public class Vertex extends Vector3 {
 
+	public Vertex() {
+		super();
+	}
+	
 	public Vertex(float[] values) {
 		super(values);
 	}
